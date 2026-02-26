@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto de Login</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
     
@@ -11,6 +14,7 @@
         <section id="login">
             <div id="image">
                 Image
+                <!-- <img src="assets/lilas-pexels.jpg" alt="Decorative Image with colors purple and blue, shining"> -->
             </div>
 
             <div id="form">
@@ -18,9 +22,36 @@
 
                 <p>Welcome again. Login in to acess your account and configure your environment.</p>
 
-                <form action="login.php" method="post"></form> 
-            </div>
+                <form action="login.php" method="post">
+                    <div>
+                        <label for="user">
+                            <span class="material-symbols-outlined" id="iconUser">account_circle
+                                <input class="inputLogin" type="email" id="user" placeholder="Your e-mail" required>
+                            </span>
+                        </label>
+                    </div>
 
+                    <div>
+                        <label for="password">
+                            <span class="material-symbols-outlined" id="iconUser">key
+                                <input class="inputLogin" type="password" id="password" placeholder="Your password" required minlength="6">
+                            </span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <input class="submit" type="submit" value="Login">
+                    </div>
+                    
+                </form> 
+
+                <div>
+                    <button class="submit">Forgot the password 
+                        <span class="material-symbols-outlined">mail</span>
+                    </button> 
+                </div>
+
+            </div>
 
         </section>
     </main>

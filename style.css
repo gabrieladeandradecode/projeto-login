@@ -1,7 +1,89 @@
 @charset "UTF-8";
 
 /* Paleta de Cores:
-    Lilás: 
-    Azul escuro:
-
+    Lilás: #5f2c82
+    Azul: #9DD2D7
+    Roxo: #392F76 
 */
+
+/* Mobile First */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #392F76;
+}
+
+main {
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 25px;
+    margin: auto;
+    height: 550px;
+    width: 280px;
+}
+
+/* section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+div#image {
+    background: url(assets/lilas-pexels.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    height: 220px;
+}
+/* div#form? div */
+div {
+    padding: 5px;
+}
+
+div#form {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.inputLogin {
+    padding: 7px;
+    background-color: #9DD2D7;
+    border-color: #392F76;
+    border-radius: 5px;
+}
+
+.inputLogin:hover {
+    background-color: aliceblue;
+}
+
+#iconUser {
+    background-color: #382f769a;
+    border-radius: 5px;
+    padding: 4px;
+    color: aliceblue;
+}
+
+.submit {
+    background-color: aliceblue;
+    padding: 10px;
+    border-color: #9DD2D7;
+    border-radius: 5px;
+    /* width: px; */
+}
+
+.submit:hover {
+    background-color: #9DD2D7;
+    cursor: pointer;
+}
+
+
+
