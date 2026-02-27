@@ -33,17 +33,18 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
 }
 
 div#image {
     background: url(assets/lilas-pexels.jpg) no-repeat;
     background-size: cover;
-    border-radius: 25px 25px 0 0;
     height: 250px;
 }
 
 div {
     padding: 5px;
+    display: block;
 }
 
 div#form {
