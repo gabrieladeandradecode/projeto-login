@@ -14,8 +14,13 @@ Grandes telas: acima de 1200px
 */
 
 @media screen and (min-width: 768px)  and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #9DD2D7, #392F76);
+    }
+    
     section {
         width: 80vw;
+        font-size: 1.2em;
     }
 
     div {
@@ -24,17 +29,58 @@ Grandes telas: acima de 1200px
 
     div#image {
         float: left;
-        width: 45%;
+        width: 40%;
         height: 100%;
         background-position: center;
     }
 
     div#form {
         float: right;
-        width: 55%;
+        width: 60%;
+    }
+
+    .inputLogin {
+        font-size: 0.8em;
+    }
+
+    .submit {
+        font-size: 1.1em;
+        width: 300px;
     }
 }
 
-/* @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #392F76,#9DD2D7);
+    }
 
-} */
+    section {
+        width: 90vw;
+        font-size: 1.2em;
+    }
+
+    div {
+        padding: 20px;
+    }
+
+    div#image {
+        float: right;
+        width: 40%;
+        height: 100%;
+        background-position: center;
+    }
+
+    div#form {
+        float: left;
+        width: 55%;
+    }
+
+    .inputLogin {
+        font-size: 0.9em;
+    }
+
+    .submit {
+        font-size: 1.1em;
+        width: 380px;
+    }
+}
